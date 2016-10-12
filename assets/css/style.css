@@ -235,6 +235,90 @@ footer {
 	}
 }
 
+
+
+@media screen and (max-width: 768px){
+
+		.navbar{
+	border-bottom: 2px solid;
+	border-color: #cccccc;
+	padding-top: 0px;
+	padding-right: 150px;
+	padding-bottom: 30px;
+	padding-left: 150px;
+	background-color: #ffffff;
+	margin-top: 100px;
+	height: 10px;
+	width: 100%;
+	right: 0px;
+	left: 0px;
+	bottom: 92px;
+}
+
+
+	.absolute_name_bar{
+	position: absolute;
+	background-color: #464F54;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	color: white;
+	width: 300px;
+	height: 90px;
+	top: 7px;
+	bottom: 92px;
+	left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+		li {
+		display: inline-block;
+		padding: 5px 16px;
+		color: green;
+		text-align: center;
+		text-decoration: none;
+		float: inherit;
+		font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+
+	}
+
+		.big-box{
+		display: inline-block;
+		width: 600px;
+		background-color: #ffffff;
+		border: solid;
+		border-color: #e1e1e1;
+		padding: 10px;
+		margin-top: 30px;
+	}
+
+
+		.box{
+		display: inline-block;
+		width: 100%;
+		background-color: #ffffff;
+		border: solid;
+		border-color: #e1e1e1;
+		padding: 15px 30px 30px 30px;
+	}
+
+	.connect-box{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+	border: solid;
+	border-color: #e1e1e1;
+	padding: 10px 20px 20px 10px;
+	margin-top: 30px;
+	}
+	
+
+
+
+}
+
+
+
 @media screen and (max-width: 640px){
 
 	.navbar{
@@ -324,45 +408,6 @@ footer {
 	padding: 10px 20px 20px 10px;
 	margin-top: 30px;
 }
-
-
-
-}
-
-
-@media screen and (max-width: 768px){
-
-		.big-box{
-		display: inline-block;
-		width: 600px;
-		background-color: #ffffff;
-		border: solid;
-		border-color: #e1e1e1;
-		padding: 10px;
-		margin-top: 30px;
-	}
-
-
-		.box{
-		display: inline-block;
-		width: 100%;
-		background-color: #ffffff;
-		border: solid;
-		border-color: #e1e1e1;
-		padding: 15px 30px 30px 30px;
-}
-
-	.connect-box{
-	display: inline-block;
-	float: left;
-	width: 100%;
-	background-color: #ffffff;
-	border: solid;
-	border-color: #e1e1e1;
-	padding: 10px 20px 20px 10px;
-	margin-top: 30px;
-}
-	
 
 
 
