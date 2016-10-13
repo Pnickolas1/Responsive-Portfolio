@@ -140,7 +140,7 @@ form{
 	text-align: left;
 }
 
-#picture1{
+/*#picture1{
 	width: 275px;
 	margin-bottom: 10px;
 	float: left;
@@ -170,6 +170,11 @@ form{
 	margin-bottom: 10px
 }
 
+#image7{
+	width:275px;
+	float: left;
+	margin-bottom: 10px
+}*/
 
 div.contact-form{
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
@@ -225,6 +230,53 @@ footer {
 .footer, .push {
 	height: 155px; /* .push must be the same height as .footer */
 }
+
+/*
+TRYING SOMETHING NEW
+/**/
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+}
+
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+
+
 
 
  /*MEDIA QUERIES 980 768 640*/   
@@ -300,6 +352,10 @@ footer {
 		border-color: #e1e1e1;
 		padding: 15px 30px 30px 30px;
 	}
+
+	img.center{
+	display: block;
+}
 
 	.connect-box{
 	display: inline-block;
@@ -392,7 +448,6 @@ footer {
 
 	.imgHolder {
     position: relative;
-    margin-left:40px;
     display: block;	
     overflow:hidden;
     padding: 5px 5px 5px 5px;
@@ -409,7 +464,26 @@ footer {
 	margin-top: 30px;
 }
 
+img.center{
+	display: block;
+}
 
+
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
 
 }
 
