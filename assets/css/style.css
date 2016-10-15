@@ -9,6 +9,9 @@ body{
 
 h1{
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 30px;
 }
 
 .navbar{
@@ -16,7 +19,7 @@ h1{
 	border-color: #cccccc;
 	background-color: #ffffff;
 	padding: 46px 155px 15px 150px;
-	width: 1267px;
+	width: 1100px;
 	right: 0px;
 	left: 0px;
 	right: 1278px;
@@ -77,7 +80,7 @@ p {
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
 	color: white;
 	width: 300px;
-	height: 90px;
+	height: 98px;
 	top: 7px;
 	bottom: 92px;
 	left: 156px;
@@ -107,14 +110,6 @@ form{
 	text-align: left;
 }
 
-/*.contact-me{
-	text-align: left;
-	border-bottom: 2px solid;
-	border-color: #e1e1e1;
-}*/
-
-
-
  /*IMAGES CSS*/
 .imgHolder {
     position: relative;
@@ -139,41 +134,6 @@ form{
 	text-align: left;
 }
 
-/*#picture1{
-	width: 275px;
-	margin-bottom: 10px;
-	float: left;
-}
-
-#jets{
-	width: 275px;
-	margin-bottom: 10px;
-	float: right;
-}
-
-#image4{
-	width: 275px;
-	margin-bottom: 10px;
-	float: left;
-}
-
-#image5{
-	width: 275px;
-	float: right;
-	margin-bottom: 10px;
-}
-
-#image6{
-	width:275px;
-	float: left;
-	margin-bottom: 10px
-}
-
-#image7{
-	width:275px;
-	float: left;
-	margin-bottom: 10px
-}*/
 
 div.contact-form{
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
@@ -229,6 +189,9 @@ footer {
 .footer, .push {
 	height: 155px; /* .push must be the same height as .footer */
 }
+.footer-text{
+	
+}
 
 /*
 TRYING SOMETHING NEW
@@ -281,6 +244,33 @@ ul.rig.columns-2 li {
  /*MEDIA QUERIES 980 768 640*/   
 
 @media (min-width: 769px) and (max-width: 980px){
+
+
+	.navbar{
+	border-bottom: 2px solid;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	padding: 46px 155px 15px 150px;
+	width: 850px;
+	right: 0px;
+	left: 0px;
+	right: 1278px;
+	bottom: 92px;
+}
+
+	.absolute_name_bar{
+	position: absolute;
+	background-color: #464F54;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	color: white;
+	width: 300px;
+	height: 80px;
+	top: 7px;
+	bottom: 92px;
+	left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
 
 		ul {
     list-style-type: none;
@@ -373,7 +363,7 @@ img.center{
 	padding-bottom: 30px;
 	padding-left: 150px;
 	background-color: #ffffff;
-	margin-top: 100px;
+	margin-top: 68px;
 	height: 10px;
 	width: 850px;
 	right: 0px;
